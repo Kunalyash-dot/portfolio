@@ -29,7 +29,7 @@ function Hero() {
                         variants={container(1)}
                         initial='hidden'
                         animate='visible' className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent flex'>
-                            Full Stack Developer <span className='px-3' ><a  href={resume}
+                            Full Stack Developer <span className='px-3 hidden lg:block' ><a  href={resume}
                               download
                               target="_blank"
                               rel="noopener noreferrer"><FaDownload className='text-white' /></a></span> 

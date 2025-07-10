@@ -3,7 +3,7 @@ import logo from '../assets/logo9.jpg'
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaDownload } from "react-icons/fa6";
-import resume from '../assets/resume.pdf'
+import resume from '../assets/resume1.pdf'
 
 function Navbar() {
   return (
