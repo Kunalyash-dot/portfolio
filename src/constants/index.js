@@ -53,8 +53,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React","Tailwind.css","Framer-motion"],
-    git:"",
-    live:"",
+    git:"https://github.com/Kunalyash-dot/portfolio.git",
+    live:"https://portfolio-lq6ndnpkp-kunalyash-dots-projects.vercel.app/",
   },
   {
     title: "Collection Dashboard",

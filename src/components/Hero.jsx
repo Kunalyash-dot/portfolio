@@ -3,7 +3,7 @@ import { HERO_CONTENT } from '../constants'
 import profilePic from '../assets/pro.jpg'
 import { motion } from "motion/react"
 import { FaDownload } from "react-icons/fa6";
-import resume from '../assets/resume.pdf'
+import resume from '../assets/resume1.pdf'
 
 
 const container = (delay) =>({
