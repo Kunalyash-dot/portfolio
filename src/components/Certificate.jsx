@@ -18,16 +18,20 @@ function Certificate() {
                     className='w-full lg:w-1/4'>
 
                     <motion.img whileHover={{ scale: 1.2 }}
-            whileTap={{ scale: 0.5 }} src={certificate.image} width={250} height={250} alt={certificate.title} className='mb-6 rounded ' />
+            whileTap={{ scale: 0.8 }} src={certificate.image} width={250} height={250} alt={certificate.title} className='mb-6 rounded ' />
                     </motion.div>
                     <motion.div whileInView={{opacity:1,x:0}} 
                     initial={{opacity:0,x:100}}
                     transition={{duration:1}} className='w-full max-w-xl lg:w-3/4'>
                     <h6 className='mb-2 font-semibold'>{certificate.title}</h6>
                     <p className='mb-4 text-neutral-400'>{certificate.description}</p>
+                     <div className="flex flex-wrap">
+
+                    
                     {certificate.skills.map((skill,index)=>(
-                        <span key={index} className='mr-2 rounded text-white bg-green-900 p-1 text-sm font-medium'>{skill}</span>
+                        <span key={index} className='mr-2 mb-2 rounded text-white bg-green-900 p-1 text-sm font-medium'>{skill}</span>
                     ))}
+                     </div>
                     </motion.div>
                 </div>
             ))}

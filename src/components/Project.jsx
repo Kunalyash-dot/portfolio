@@ -20,7 +20,7 @@ function Project() {
                             className='w-full lg:w-1/4 '>
 
                             <motion.img whileHover={{ scale: 1.2 }}
-                                whileTap={{ scale: 0.5 }} src={project.image} width={250} height={250} alt={project.title} className='mb-7 rounded ' />
+                                whileTap={{ scale: 0.8 }} src={project.image} width={250} height={250} alt={project.title} className='mb-7 rounded ' />
                         </motion.div>
                         <motion.div whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: 100 }}
