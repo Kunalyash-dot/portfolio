@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { HERO_CONTENT } from '../constants'
 import profilePic from '../assets/pro.jpg'
 import { motion } from "motion/react"
@@ -15,6 +15,8 @@ const container = (delay) =>({
 })
 
 function Hero() {
+
+   
     return (
         <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
             <div className='flex flex-wrap '>
@@ -24,12 +26,12 @@ function Hero() {
                         variants={container(0.5)}
                         initial='hidden'
                         animate='visible'
-                        className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>A Kunal Kumar</motion.h1>
+                        className='pb-6 md:pb-16 text-4xl  md:text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>A Kunal Kumar</motion.h1>
                         <motion.span
                         variants={container(1)}
                         initial='hidden'
                         animate='visible' className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent flex'>
-                            Full Stack Developer <span className='px-3 hidden lg:block' ><a  href={resume}
+                           Full Stack Developer <span className='px-3 hidden lg:block' ><a  href={resume}
                               download
                               target="_blank"
                               rel="noopener noreferrer"><FaDownload className='text-white' /></a></span> 

@@ -1,7 +1,7 @@
 import project1 from "../assets/ecom.png";
 import project2 from "../assets/estate.png";
 import project3 from "../assets/project4.png";
-import project4 from "../assets/project3.jpg";
+import project4 from "../assets/project5.png";
 import udemyCertifcate from "../assets/udemy.jpg";
 import pythonCertifcate from "../assets/python.jpg";
 
@@ -29,6 +29,16 @@ export const CERTIFICATES = [
 ]
 
 export const PROJECTS = [
+   {
+    title: "Excel Report Automation",
+    image: project4,
+    description:
+      "Developed an end-to-end Excel automation platform for generating sales, collection, and IVR reports.",
+    technologies: ["React","Tailwind.css", "Python", "Pandas","FastAPI"],
+    git:"https://github.com/Kunalyash-dot/report_automation.git",
+    live:"https://report-automation-frontend.vercel.app/",
+    
+  },
   {
     title: "E-Commerce Website",
     image: project1,
@@ -56,15 +66,6 @@ export const PROJECTS = [
     git:"https://github.com/Kunalyash-dot/portfolio.git",
     live:"https://portfolio-lq6ndnpkp-kunalyash-dots-projects.vercel.app/",
   },
-  {
-    title: "Collection Dashboard",
-    image: project4,
-    description:
-      "A role-based collection dashboard with admin CRUD access and user-level data visibility by hierarchy.",
-    technologies: ["React","Tailwind.css", "Express.js", "MongoDB","Redux-redux"],
-    git:"https://github.com/Kunalyash-dot/collection_dashboard_new.git",
-    live:"  ",
-    
-  },
+ 
 ];
 
