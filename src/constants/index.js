@@ -1,7 +1,7 @@
 import project1 from "../assets/ecom.png";
 import project2 from "../assets/estate.png";
 import project3 from "../assets/project4.png";
-import project4 from "../assets/project5.png";
+import project4 from "../assets/project5.PNG";
 import udemyCertifcate from "../assets/udemy.jpg";
 import pythonCertifcate from "../assets/python.jpg";
 
